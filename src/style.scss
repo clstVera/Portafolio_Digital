@@ -1,0 +1,16 @@
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+    --font-family: 'Raleway', sans-serif;
+}
+
+.App{
+    height: 100vh;
+    color: var(--main-white);
+    font-family: var(--font-family);    
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;   
+}
