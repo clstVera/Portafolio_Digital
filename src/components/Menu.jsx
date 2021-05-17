@@ -21,6 +21,9 @@ const Item = styled.a`
     text-decoration: none;
     color: var(--main-white);
     cursor: pointer;
+    @media (max-width: 768px) {
+    font-size: 1rem;
+}
 `
 
 const Menu = () => {

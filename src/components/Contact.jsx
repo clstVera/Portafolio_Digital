@@ -13,6 +13,11 @@ export const TextH1 = styled.h1`
     font-weight: 700;    
     line-height: 1.4;
     color: var(--main-white);
+    @media (max-width: 768px) {
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 1;  
+}
 `;
 
 const ContactStyle = styled.div`
@@ -41,7 +46,7 @@ const Contact = () => {
             <TextH1>Let's work together...</TextH1>
             <ContactLinks>
                 <Social link="https://www.facebook.com/" icon={faFacebook} text="Facebook"></Social>
-                <Social link="https://github.com/" icon={faGithub} text="GitHub"></Social>
+                <Social id="profile-link" link="https://github.com/" icon={faGithub} text="GitHub"></Social>
                 <Social link="https://twitter.com/" icon={faTwitter} text="Twitter"></Social>
                 <Social link="mailto:danivera2@hotmail.com" icon={faAt} text="Send a mail"></Social>
                 <Social link="tel:+57-305-309-87-74" icon={faMobileAlt} text="Call me"></Social>

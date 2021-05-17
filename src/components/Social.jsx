@@ -13,6 +13,11 @@ const SocialA = styled.a`
     text-align: center;
     text-shadow: 2px 2px 1px #1f1f1f;
     transition: transform 0.3s ease-out;
+    @media (max-width: 768px) {
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1;  
+}
 `
 
 

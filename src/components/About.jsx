@@ -20,6 +20,11 @@ const TextH1 = styled.h1`
     font-weight: 700;    
     line-height: 1.4;
     color: var(--main-white);
+    @media (max-width: 768px) {
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 1;  
+}
 `;
 
 const TextP1 = styled.p`
@@ -27,6 +32,10 @@ const TextP1 = styled.p`
     font-weight: 200;
     font-style: italic;
     color: var(--main-red);
+    @media (max-width: 768px) {
+    font-size: 1rem;
+    font-weight: 100; 
+}
 `;
 
 const Image1 = styled.img`

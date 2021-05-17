@@ -17,11 +17,16 @@ const ProjectP = styled.p`
     line-height: 1.4;
     font-size: 1.5rem;    
     font-style: italic;
+    @media (max-width: 768px) {
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1;  
+}
     `
 
 const Project = (props) => {
     return (
-        <ProjectA href={props.link} target="_blank" id="project-tile">
+        <ProjectA href={props.link} target="_blank" className="project-tile">
             <ProjectImg src={props.image}></ProjectImg>
             <ProjectP>{props.title}</ProjectP>
         </ProjectA>
